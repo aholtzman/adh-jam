@@ -1,5 +1,5 @@
 import React from 'react'
-import Page from '../components/gallerypage'
+import Page from '../components/galleryPage'
 import data from '../images/shadow/data'
 
 export default  () => (

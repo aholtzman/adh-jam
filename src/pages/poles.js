@@ -1,5 +1,5 @@
 import React from 'react'
-import Page from '../components/gallerypage'
+import Page from '../components/galleryPage'
 import data from '../images/poles/data'
 
 export default  () => (
