@@ -10,4 +10,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Muli', sans-serif;
+  background-color: #ededed;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin: .5rem;
 }

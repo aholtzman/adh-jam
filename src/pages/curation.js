@@ -1,8 +1,9 @@
 import React from 'react'
+import Layout from '../components/layout'
 import { TextWrap } from '../common'
 
 export default () => (
-    <div>
+    <Layout>
       <TextWrap>
       <h2>Curation</h2>
       <p>
@@ -32,5 +33,5 @@ export default () => (
       Iterations - Allison Barnes, Rachel Hulin & Asia Kepka
       </p>
       </TextWrap>
-    </div>
+    </Layout>
   )

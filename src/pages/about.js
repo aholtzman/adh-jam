@@ -1,9 +1,10 @@
 import React from 'react'
+import Layout from '../components/layout'
 import { TextWrap } from '../common'
 
 
 export default () => (
-    <div>
+    <Layout>
       <TextWrap>
 
       <h2>(American) b. 1975</h2>
@@ -88,5 +89,5 @@ export default () => (
       Issue #3, Montreal, Quebec,
       Canada
       </TextWrap>
-    </div>
+    </Layout>
   )
