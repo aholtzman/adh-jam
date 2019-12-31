@@ -7,3 +7,5 @@ export const TextWrap = styled.div`
   min-height:calc(100vh - 197px);
   background-color:white;
 `
+
+export const md = `@media(max-width:768px)`
