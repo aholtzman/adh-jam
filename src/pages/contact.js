@@ -5,7 +5,7 @@ import { md } from '../common'
 
 export default () => (
   <Layout>
-  <form name="contact" method="POST" action="/" netlify css={`width:50%;display:flex;flex-direction:column;margin:auto;min-height:calc(100vh - 197px);;padding:4rem;${md}{padding:.5rem;width:80%;}`}>
+  <form name="contact" method="POST" action="/artworks" netlify data-netlify="true" css={`width:50%;display:flex;flex-direction:column;margin:auto;min-height:calc(100vh - 197px);;padding:4rem;${md}{padding:.5rem;width:80%;}`}>
       <label htmlFor='name'>Name</label>
       <Input type="text" name="name" />
       <label htmlFor='email'>Email</label>
