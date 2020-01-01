@@ -1,17 +1,29 @@
-import React from "react"
-import { Link } from "gatsby"
-//
-// import Layout from "../components/layout"
-// import Image from "../components/image"
-// import SEO from "../components/seo"
+import React from 'react'
+import Name from '../components/Name'
+import Link from '../components/Link'
+import {
+  Grid,
+  PhotoButton,
+  CVButton,
+  ArtButton,
+  DesignButton,
+  CurationButton,
+  FullName
+} from '../components/MenuItems'
 
-const IndexPage = () => (
-<div style={{display:'grid', width:'100vw', height:'100vh', textAlign:'center', backgroundColor: 'white'}}>
-  <div style={{margin:'auto'}}>
-    <h1 style={{margin:'0'}}>Adam Holtzman</h1>
-    <p style={{margin:'0'}} ><Link to="/artworks">Photography & Artworks</Link> - <Link to="/about">CV</Link> - <Link to="/curation">Curation</Link> - <Link to="/design">Design</Link>- <Link to="/contact">Contact</Link></p>
-  </div>
-</div>
-)
+const Home = () => {
+  return(
+      <Grid>
+        <PhotoButton><Link primary to='/artworks'><h4>artworks</h4></Link></PhotoButton>
+        <ArtButton><Link primary to='/contact'><h4>contact</h4></Link></ArtButton>
+        <CVButton><Link primary to='/about'><h4>cv</h4></Link></CVButton>
+        <DesignButton><Link primary to='/design'><h4>design</h4></Link></DesignButton>
+        <CurationButton><Link primary to='/curation'><h4>curation</h4></Link></CurationButton>
+        <FullName>
+            <Name />
+        </FullName>
+      </Grid>
+  );
+}
 
-export default IndexPage
+export default Home
