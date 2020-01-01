@@ -5,8 +5,9 @@ import { md } from '../common'
 
 export default () => (
   <Layout>
-  <form name="contact" method="POST" action="/artworks" data-netlify="true" >
+  <form name="contact" method="POST" action="/artworks" data-netlify="true" data-netlify-honeypot="bot-field">
     <div css={`width:50%;display:flex;flex-direction:column;margin:auto;min-height:calc(100vh - 197px);;padding:4rem;${md}{padding:.5rem;width:80%;}`} >
+      <input type="hidden" name="form-name" value="contact" />
       <label htmlFor='name'>Name</label>
       <Input type="text" name="name" />
       <label htmlFor='email'>Email</label>
