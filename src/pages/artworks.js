@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import data from '../images/absence/data'
+import SEO from '../components/seo'
 
-export default  () => (
+export default () => (
   <Layout>
+  <SEO title="Art & Photography" />
     <div css={`display:flex;flex-direction:column;max-width:1200px;margin:auto;justify-content:center;background-color:white;text-align:center;min-height:calc(100vh - 197px);`}>
       <Link to={`/absence/`}>Absence</Link>
       <Link to={`/deconstuction/`}>Deconstruction</Link>

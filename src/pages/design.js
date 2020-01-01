@@ -1,9 +1,11 @@
 import React from 'react'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 import { TextWrap } from '../common'
 
 export default () => (
     <Layout>
+    <SEO title="Design" />
       <TextWrap>
       <h2>Design Work</h2><br></br>
       Since 2002, Adam Holtzman occasionally designed and built websites for both himself and colleagues. Recently, his focus shifted to a more professional and deeper level of web development by learning front end languages, techniques and implementations. His current projects include developing sites with React, has been utilizing CSS in JS with Styled-Components and new design layouts with CSS Grid. His development portfolio can be viewed <a href="http://adamdavidholtzman.com" >here.</a>

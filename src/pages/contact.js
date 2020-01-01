@@ -1,10 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 import styled from 'styled-components'
 import { md } from '../common'
 
 export default () => (
   <Layout>
+  <SEO title="Contact" />
   <form name="contact" method="POST" action="/artworks" data-netlify="true" data-netlify-honeypot="bot-field">
     <div css={`max-width:960px;background:#fff;display:flex;flex-direction:column;margin:auto;min-height:calc(100vh - 197px);;padding:4rem;${md}{padding:.5rem;}`} >
       <input type="hidden" name="form-name" value="contact" />

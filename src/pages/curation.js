@@ -1,9 +1,11 @@
 import React from 'react'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 import { TextWrap } from '../common'
 
 export default () => (
     <Layout>
+    <SEO title="Curation" />
       <TextWrap>
       <h2>Curation</h2>
       <p>

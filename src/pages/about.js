@@ -1,10 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 import { TextWrap } from '../common'
 
 
 export default () => (
     <Layout>
+    <SEO title="About - CV" />
       <TextWrap>
 
       <h2>(American) b. 1975</h2>
